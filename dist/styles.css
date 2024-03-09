@@ -1,0 +1,123 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html, body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* ======================================
+  nav bar 
+======================== */
+.navContainer {
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 2px 3px 2px lightgrey; 
+}
+
+.navBar {
+  display: flex;
+  gap: 20px;
+}
+
+/* ======================================
+  About Me
+======================== */
+.aboutMeContainer {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+
+#profilePhoto {
+  max-width: 300px;
+}
+
+.aboutMeInfo {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 2px 3px 2px lightgrey;
+}
+
+/* ======================================
+  My Work
+======================== */
+.workContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+}
+
+.projectCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px
+}
+
+/* ======================================
+  Project Cards
+======================== */
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-style: solid;
+}
+
+.projectPhoto {
+  max-width: 300px;
+}
+
+.projectInfoContainer {
+  padding: 20px 10px 0 10px;
+}
+
+.projectTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ======================================
+  Contact Me
+======================== */
+.contactMeContainer {
+  display: flex;
+  text-align: start;
+}
